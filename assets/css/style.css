@@ -1,0 +1,240 @@
+:root{
+    --coloronegro:#000000;
+    --big:#f9fafa;
+}
+body{
+    background-color: var(--coloronegro);
+    font-family:'Antonio', sans-serif;
+
+    
+}
+
+
+/* ancho logo*/
+.svg-logo{
+    width: 3rem;
+}
+
+/* estilo del ancho del nav*/
+.nav-width{
+    width: 90%;
+
+}
+
+/* largo de la imagen carrusel*/
+
+.imagencarrusel{
+    height:70rem;
+}
+
+
+/* tamaños del container de carrousel*/
+.container-xxl{
+    max-width: 121rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* color de navbar*/
+.navbar{
+    background-color:var(--big);
+}
+
+/* padding para la seccion (titulo) quienes somos*/
+.m-quienesomos{
+    padding-top:1.5rem;
+
+}
+/* padding para la seccion (titulo) destacados*/
+.m-card{
+    padding-top:1.5rem;
+
+}
+/* padding para la seccion (titulo) contacto*/
+.m-contacto{
+    padding-top:4rem;
+
+}
+
+/* fondos de las card de quienes somos */
+
+.bg-negro{
+    background-color:var(--coloronegro);
+}
+
+/* borde de la card de quienes somos*/
+.sin-borde{
+        border: none;
+}
+
+/* minimo ancjo  para las card*/
+.card-container{
+    min-height: 30rem;
+}
+
+/* estilo del alto de las imanges de las card destacados*/
+.img-card-width{
+    height: 10rem;
+}
+
+/* cambio en footer para dejer los elementos en linea*/
+.logo-footer ,.icon-footer, .icon-grup{
+    display: inline-block;
+}
+
+/* ancho de los iconoa dw footwe*/
+.icon-width{
+    font-size: 2rem;
+    
+}
+/* padding del grupo de iconos*/
+.icon-grup {
+    padding-left:45rem;
+}
+
+/* mergen iconos footer*/
+.icon-footer{
+    margin-left: 1rem;
+}
+
+/* se elimina la seccion de quienes somos para la resolucion de telefonos mobiles*/
+@media screen and (max-width: 570px){
+
+.quieneSomos{
+    display:none;    
+}
+}
+
+/* cambio de imagen de tamaño carrousel para resolucion de telefonos mobiles */
+@media screen and (max-width: 570px){
+
+.imagencarrusel{
+        width: 5rem;  
+        height: 30rem;
+    
+    }
+    }
+
+
+
+/* tamaños de los iconos en resolucion para telefonos mobiles  */
+@media screen and (max-width: 570px){
+
+.icon-width{
+        font-size: 1rem; 
+}
+}
+
+/* tamaños del logo del footer en resolucion para telefonos mobiles  */
+@media screen and (max-width: 570px){
+
+.logo-footer{
+    font-size: 1rem; 
+
+}
+}
+
+
+/* padding para el grupo de iconos de footer  */
+
+@media screen and (max-width: 570px){
+
+    .icon-grup{
+        padding-left:1rem
+    }
+}
+
+
+/* elimino el link en el nav a quienes somo en resolucion para mobiles  */
+@media screen and (max-width: 570px){
+
+    .nav-quienes{
+        display: none;
+    }
+}
+
+/* modificaion en el paggin en grupo de iconos para la resolucion 1201px  */
+
+@media screen and (max-width: 1201px){
+
+.icon-grup{
+        padding-left:1rem
+    }
+}
+
+/* animacion de las imagenes de la seccionde las tarjes de la resolucion 600px  hacia arriba */
+
+@media only screen and (min-width: 600px) {
+.card img:hover{
+    transform: scale(1.03);
+    
+    }
+    }
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1082px  */
+
+@media screen and (max-width: 1082px){
+
+.card-container{
+    min-height: 37rem;
+}
+}
+
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1198px  */
+
+@media screen and (max-width: 1198px){
+
+    .card-container{
+        min-height: 36rem;
+}
+}
+/* modificacion de la altura de las card de la seccion destacados para la resolucion  991px */
+
+@media screen and (max-width: 991px){
+
+    .card-container{
+        min-height: 28rem;
+}
+}
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion  765px */
+
+@media screen and (max-width: 765px){
+
+    .card-container{
+        min-height: 35rem;
+}
+}
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles 540px  */
+
+@media screen and (max-width: 540px){
+
+    .card-container{
+        min-height: 26rem;
+    }
+    }
+
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles 540px */
+
+@media screen and (max-width: 569px){
+
+    .card-container{
+        min-height: 15rem;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
